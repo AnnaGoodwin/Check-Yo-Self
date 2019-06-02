@@ -2,8 +2,8 @@ class ToDoList {
     constructor(id) {
         this.id = id,
         this.title = '' ,
-        this.tasks = true || false,
-        this.urgent = []
+        this.urgent = true || false,
+        this.tasks = []
 
     }
     saveToStorage {
