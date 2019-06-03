@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid  red;*/
+}
+
+.search-image {
+  width: 20px;
+}
