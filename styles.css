@@ -1,8 +1,57 @@
 * {
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   border: 1px solid  red;
 }
 
 img {
   width: 20px;
+}
+input {
+  margin: 20px;
+}
+
+.main-header {
+  background-color: #1F1f3D;
+}
+
+.nav-button {
+  background-color: #1F1f3D;
+  color: #FFFFFF;
+  margin: 5px;
+}
+
+.search-image {
+  background-color: #F3F6F7;
+}
+
+nav {
+  flex-direction: column;
+  background-color: #587A8A;
+  float: left;
+  height: 100vh;
+  width: 40%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.yo {
+  color: #FFC30C;
+}
+
+h1 {
+  color: #FFFFFF
+}
+
+main {
+  background-color: background-color: #1F1f3D;
+  float: right;
+}
+
+section {
+  background-color: #FFC30C;
 }
