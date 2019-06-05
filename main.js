@@ -1,8 +1,11 @@
 // Query Selectors
 
   // query search input
-  // query form input
+  var searchInput = document.querySelector('.search-input')
+  // query title input
+  var titleInput = document.querySelector('.new-to-do-input')
   // query task item button
+  var 
   // query output area
   // query make list button
   // query clear button
