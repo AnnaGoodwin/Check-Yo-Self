@@ -4,11 +4,11 @@ class ToDoList {
         this.title = title;
         this.urgent = urgent || false;
         this.tasks = tasks
-
     }
-    saveToStorage {
 
-    }
+    saveToStorage(list) {
+        localStorage.list = JSON.stringify(list);
+  }
     deleteFromStorage {
 
     }
