@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Check Yo Self</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -19,16 +20,17 @@
       <label class="nav-input-label" for="">Task Title</label>
       <input class="new-to-do-input" type="text" placeholder="A New ToDo Title">
       <div class="new-task-container">
-        <button class="delete-button">
-        </button>
-        <img class="delete-image" src="images/delete.svg" alt="delete-image">
-        <p></p>
+        <p class="task-text">
+          <span>
+            <img class="delete-image" src="images/delete.svg" alt="delete-image">
+          </span>
+          item to delete
+        </p>
       </div>
     </form>
     <form class="task-item-form">
       <label class="nav-input-label" for="">Task Item</label>
       <input class="new-item-input" type="text" placeholder="Typing a new ite">
-      <img class="delete-image" src="images/delete.svg" alt="delete-image">
       <button class="nav-button">Make Task List</button>
       <button class="nav-button">Clear All</button>
     </form>
@@ -40,7 +42,6 @@
         <h2>Task Title</h2>
       </header>
       <div class="task-items">
-        <button class="task-button"></button>
         <img src="images/checkbox.svg" alt="checkbox-image">
         <img src="images/checkbox-active.svg" alt="checkbox-active-image">
         <p class="task-text">Don't ever play yourself</p>
