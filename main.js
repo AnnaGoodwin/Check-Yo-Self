@@ -5,7 +5,7 @@
   // query title input
   var titleInput = document.querySelector('.new-to-do-input')
   // query task item button
-  var 
+  var taskBtn = document.getElementById('task-button')
   // query output area
   // query make list button
   // query clear button
